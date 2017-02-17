@@ -153,5 +153,96 @@ p {
 @media screen and (max-width: 1000px) {
   .popular {
     padding: 70px 60px 0 60px; } }
+.popular-title {
+  padding: 30px 0px; }
+  .popular-title div .strike {
+    display: block;
+    text-align: center; }
+    .popular-title div .strike > h3 {
+      position: relative;
+      display: inline-block;
+      color: #7e7f84; }
+    .popular-title div .strike > h3:before, .popular-title div .strike > h3:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 129px;
+      height: 1px;
+      background: #ededed; }
+    .popular-title div .strike > h3:before {
+      right: 100%;
+      margin-right: 15px; }
+    .popular-title div .strike > h3:after {
+      left: 100%;
+      margin-left: 15px; }
+
+.popular-list {
+  padding: 30px 120px 0 120px; }
+  .popular-list .col-sm-3 {
+    margin: 0px 20px 35px 15px;
+    border: 1px solid #ededed;
+    min-width: 200px;
+    width: 21%;
+    padding-right: 0px;
+    padding-left: 0px; }
+    .popular-list .col-sm-3 .popular-img {
+      padding: 10px 15px 0px 15px; }
+      .popular-list .col-sm-3 .popular-img .stars .fa-star {
+        color: #f45a40; }
+      .popular-list .col-sm-3 .popular-img .thumbn {
+        width: 100%;
+        margin: 30px 0px; }
+    .popular-list .col-sm-3 .popular-desc {
+      padding: 5px 15px;
+      border-top: 1px solid #ededed; }
+      .popular-list .col-sm-3 .popular-desc a {
+        text-decoration: none;
+        color: #7e7f84;
+        text-transform: uppercase; }
+        .popular-list .col-sm-3 .popular-desc a h4 {
+          margin-bottom: 5px;
+          margin-top: 5px;
+          font-weight: bold; }
+      .popular-list .col-sm-3 .popular-desc h5 {
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        margin-top: 5px; }
+      .popular-list .col-sm-3 .popular-desc p {
+        text-transform: none;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        line-height: 15px;
+        border-bottom: 1px solid #ededed;
+        padding-bottom: 5px; }
+    .popular-list .col-sm-3 .popular-price-and-icons {
+      padding: 0px 15px;
+      padding-bottom: 15px; }
+      .popular-list .col-sm-3 .popular-price-and-icons .money-icon {
+        display: inline-block; }
+      .popular-list .col-sm-3 .popular-price-and-icons .extra-icons {
+        display: inline-block;
+        float: right; }
+        .popular-list .col-sm-3 .popular-price-and-icons .extra-icons .thumbn {
+          margin-bottom: 4px; }
+    .popular-list .col-sm-3 .popular-buy {
+      padding: 0px 15px;
+      text-align: center;
+      background: #f45a40;
+      padding: 10px 15px; }
+      .popular-list .col-sm-3 .popular-buy a {
+        color: #fff;
+        text-transform: uppercase;
+        width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .popular-list .col-sm-3 {
+    width: 21%; } }
+@media screen and (min-width: 1500px) {
+  .popular-list .col-sm-3 {
+    width: 22.93%; } }
+@media screen and (max-width: 768px) {
+  .popular-list .col-sm-3 {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
