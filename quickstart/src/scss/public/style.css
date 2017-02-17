@@ -102,5 +102,44 @@ p {
 @media screen and (max-width: 1000px) {
   .header {
     padding: 30px 60px 0 60px !important; } }
+.slider {
+  padding: 0px;
+  margin-top: -5px; }
+  .slider .row .col-sm-12 .frontcover {
+    height: 65vh;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    min-height: 600px;
+    background-size: cover !important; }
+    .slider .row .col-sm-12 .frontcover .row {
+      height: 100%; }
+      .slider .row .col-sm-12 .frontcover .row .col-sm-12 {
+        height: 100%;
+        display: flex;
+        align-items: center; }
+        .slider .row .col-sm-12 .frontcover .row .col-sm-12 .layout {
+          background: rgba(0, 0, 0, 0.6);
+          padding: 0px 0px 30px 120px;
+          display: flex; }
+          .slider .row .col-sm-12 .frontcover .row .col-sm-12 .layout .promo {
+            max-width: 480px; }
+            .slider .row .col-sm-12 .frontcover .row .col-sm-12 .layout .promo h1 {
+              margin-bottom: 0px; }
+            .slider .row .col-sm-12 .frontcover .row .col-sm-12 .layout .promo p {
+              font-size: 14px;
+              color: #fff;
+              margin: 15px 0px; }
+            .slider .row .col-sm-12 .frontcover .row .col-sm-12 .layout .promo a button {
+              background-color: #f45a40;
+              color: #fff;
+              border: none;
+              outline: 0;
+              text-transform: uppercase;
+              padding: 8px 30px; }
+
+@media screen and (max-width: 1000px) {
+  .layout {
+    padding: 0px 0px 30px 60px !important; } }
 
 /*# sourceMappingURL=style.css.map */
