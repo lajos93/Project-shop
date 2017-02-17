@@ -1,0 +1,23 @@
+.popular {
+    padding: 70px 120px 0 120px;
+
+    .col-sm-4 {
+        img {
+            width: 100%;
+            min-width: 160px;
+        }
+
+        a {
+            text-transform: uppercase;
+            color: $orange;
+
+            h2 {}
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .popular {
+        padding: 70px 60px 0 60px;
+    }
+}
