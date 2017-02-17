@@ -1,0 +1,97 @@
+@import "../public/header/menu";
+@import "../public/main/slider";
+@import "../public/main/topics";
+@import "../public/main/popular-products";
+@import "../public/footer/signup";
+
+//Csolors
+
+$lettergray: #7e7f84;
+$orange: #f45a40;
+$lighgray: #ededed;
+$white: #fff;
+$semi-tp-black: rgba(black, 0.6);
+$footer: #2a2d34;
+
+//
+
+h1 {
+    font-size: 60px;
+    color: $white;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: $footer;
+    color: $white;
+    padding: 15px 135px 15px 135px;
+
+    .col-sm-4 {
+        padding: 0px;
+    }
+
+    h3 {
+        text-transform: uppercase;
+    }
+
+    span {
+        color: $lettergray;
+    }
+
+    .stories {
+        div {
+            margin-bottom: 20px;
+        }
+
+        .social-media {
+            i {
+                font-size: 25px;
+                padding-right: 10px;
+            }
+        }
+    }
+
+    .posts {
+        div {
+            padding-right: 50px;
+            margin-bottom: 20px;
+
+            .white {
+                color: $white;
+            }
+        }
+    }
+
+    .support {
+        div {
+            display: inline-block;
+            float: left;
+            width: 150px;
+
+            ul {
+                li {
+                    color: $lettergray;
+                    display: block;
+                }
+            }
+        }
+
+        .first-column {
+            position: absolute;
+        }
+
+        .second-column {
+            position: relative;
+            left: 183px;
+        }
+    }
+}
+
+//

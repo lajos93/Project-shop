@@ -1,0 +1,40 @@
+.sign-up {
+    .col-sm-12 {
+        background: $orange;
+        padding: 15px 135px 15px 135px;
+        display: flex;
+        align-items: center;
+
+        .col-sm-6 {
+            padding: 0px;
+
+            h3 {
+                text-transform: uppercase;
+                color: $white;
+            }
+        }
+
+        .form {
+            form {
+                float: right;
+
+                input[type=text] {
+                    padding: 5px 25px;
+                    border: none;
+                    background-color: $white;
+                    color: $lettergray;
+                    text-transform: uppercase;
+                    margin-right: 10px;
+                }
+
+                input[type=submit] {
+                    padding: 5px 25px;
+                    border: none;
+                    background-color: #ff674f;
+                    color: $white;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
