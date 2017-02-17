@@ -270,4 +270,37 @@ p {
       color: #fff;
       text-transform: uppercase; }
 
+.footer {
+  background-color: #2a2d34;
+  color: #fff;
+  padding: 15px 135px 15px 135px; }
+  .footer .col-sm-4 {
+    padding: 0px; }
+  .footer h3 {
+    text-transform: uppercase; }
+  .footer span {
+    color: #7e7f84; }
+  .footer .stories div {
+    margin-bottom: 20px; }
+  .footer .stories .social-media i {
+    font-size: 25px;
+    padding-right: 10px; }
+  .footer .posts div {
+    padding-right: 50px;
+    margin-bottom: 20px; }
+    .footer .posts div .white {
+      color: #fff; }
+  .footer .support div {
+    display: inline-block;
+    float: left;
+    width: 150px; }
+    .footer .support div ul li {
+      color: #7e7f84;
+      display: block; }
+  .footer .support .first-column {
+    position: absolute; }
+  .footer .support .second-column {
+    position: relative;
+    left: 183px; }
+
 /*# sourceMappingURL=style.css.map */
