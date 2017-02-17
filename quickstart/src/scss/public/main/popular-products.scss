@@ -1,0 +1,151 @@
+.popular-title {
+    padding: 30px 0px;
+
+    div {
+        .strike {
+            display: block;
+            text-align: center;
+
+            > h3 {
+                position: relative;
+                display: inline-block;
+                color: $lettergray;
+            }
+
+            > h3:before, > h3:after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                width: 129px;
+                height: 1px;
+                background: $lighgray;
+            }
+
+            > h3:before {
+                right: 100%;
+                margin-right: 15px;
+            }
+
+            > h3:after {
+                left: 100%;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.popular-list {
+    padding: 30px 120px 0 120px;
+
+    .col-sm-3 {
+        margin: 0px 20px 35px 15px;
+        border: 1px solid $lighgray;
+        min-width: 200px;
+        width: 21%;
+        padding-right: 0px;
+        padding-left: 0px;
+
+        .popular-img {
+            padding: 10px 15px 0px 15px;
+
+            .stars {
+                .fa-star {
+                    color: $orange;
+                }
+            }
+
+            .thumbn {
+                width: 100%;
+                margin: 30px 0px;
+            }
+        }
+
+        .popular-desc {
+            padding: 5px 15px;
+            border-top: 1px solid $lighgray;
+
+            a {
+                text-decoration: none;
+                color: $lettergray;
+                text-transform: uppercase;
+
+                h4 {
+                    margin-bottom: 5px;
+                    margin-top: 5px;
+                    font-weight: bold;
+                }
+            }
+
+            h5 {
+                font-size: 13px;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+
+            p {
+                text-transform: none;
+                margin-bottom: 5px;
+                margin-top: 5px;
+                line-height: 15px;
+                border-bottom: 1px solid $lighgray;
+                padding-bottom: 5px;
+            }
+        }
+
+        .popular-price-and-icons {
+            padding: 0px 15px;
+            padding-bottom: 15px;
+
+            .money-icon {
+                display: inline-block;
+            }
+
+            .extra-icons {
+                display: inline-block;
+                float: right;
+
+                .thumbn {
+                    margin-bottom: 4px;
+                }
+            }
+        }
+
+        .popular-buy {
+            padding: 0px 15px;
+            text-align: center;
+            background: $orange;
+            padding: 10px 15px;
+
+            a {
+                color: $white;
+                text-transform: uppercase;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .popular-list {
+        .col-sm-3 {
+            width: 21%;
+        }
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .popular-list {
+        .col-sm-3 {
+            width: 22.93%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .popular-list {
+        .col-sm-3 {
+            width: 100%;
+        }
+    }
+}
