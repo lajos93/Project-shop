@@ -244,5 +244,30 @@ p {
 @media screen and (max-width: 768px) {
   .popular-list .col-sm-3 {
     width: 100%; } }
+.sign-up .col-sm-12 {
+  background: #f45a40;
+  padding: 15px 135px 15px 135px;
+  display: flex;
+  align-items: center; }
+  .sign-up .col-sm-12 .col-sm-6 {
+    padding: 0px; }
+    .sign-up .col-sm-12 .col-sm-6 h3 {
+      text-transform: uppercase;
+      color: #fff; }
+  .sign-up .col-sm-12 .form form {
+    float: right; }
+    .sign-up .col-sm-12 .form form input[type=text] {
+      padding: 5px 25px;
+      border: none;
+      background-color: #fff;
+      color: #7e7f84;
+      text-transform: uppercase;
+      margin-right: 10px; }
+    .sign-up .col-sm-12 .form form input[type=submit] {
+      padding: 5px 25px;
+      border: none;
+      background-color: #ff674f;
+      color: #fff;
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
