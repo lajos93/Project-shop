@@ -1,0 +1,12 @@
+<section class="recipe-list">
+	  <div *ngFor="let recipe of recipes" class="recipe" [class.featured]="recipe.isfeatured">
+	  	<h2>{{recipe.name | uppercase}}</h2>
+	  	<img src="{{recipe.image}}"/>
+	  	<p>{{recipe.description}}</p>
+	  	<p>{{recipe.method}}</p>
+	  	<p>{{recipe.ingredients}}</p>
+	  	<p>{{recipe.preptime}}</p>
+	  	<p>{{recipe.cookingtime}}</p>
+	  	<!--<input type="text" (keydown)="showKey();">-->
+	  </div>
+</section>

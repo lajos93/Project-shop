@@ -11,9 +11,10 @@ export class RecipeListComponent  {
 		"description" : "Make the best strawberry tart there is",
 		"method" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
 		"ingredients" : ["300g flour", "400g strawberries", "4 eggs"],
-		"image" : "app/assets/recipe-1.jpg",
+		"image" : "./app/assets/recipe-1.jpg",
 		"preptime" : 11,
-		"cookingtime" : 70
+		"cookingtime" : 70,
+		"isfeatured" : true
 		},
 		{
 
@@ -22,13 +23,19 @@ export class RecipeListComponent  {
 		"description" : "To make apple pie, peel and slice the apple",
 		"method" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
 		"ingredients" : ["500g flour", "200g strawberries", "1 eggs"],
-		"image" : "app/assets/recipe-2.jpg",
+		"image" : "./app/assets/recipe-2.jpg",
 		"preptime" : 11,
-		"cookingtime" : 90
+		"cookingtime" : 90,
+		"isfeatured" : false
 		}];
 		totalTimeForRecipe(recipe:any) :number{
 			return recipe.preptime + recipe.cookingtime;
-		}
+		},
+
+		/*showKey(event) {
+			alert('fsdad');
+		}*/
+
  }
 
 
